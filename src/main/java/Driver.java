@@ -27,6 +27,9 @@ public class Driver {
 		counter.multiplyBy(6);
 
 		System.out.println("Current count:" + counter.getCount());
-	}
 
+		counter.increaseBy(2);
+
+		System.out.println("Current count:" + counter.getCount());
+	}
 }
